@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="jdwFV6_J4tLY20P04jMW" name="Page-1">
-        <mxGraphModel dx="740" dy="390" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1184" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -22,10 +22,10 @@
                 <mxCell id="19" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#999999;fontColor=#FFFFFF;" parent="1" source="3" target="18" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="21" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#999999;fontColor=#FFFFFF;" parent="1" source="3" target="20" edge="1">
+                <mxCell id="21" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#F0F0F0;fontColor=#FFFFFF;" parent="1" source="3" target="20" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="45" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="1" source="3" target="43" edge="1">
+                <mxCell id="45" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeColor=#F0F0F0;" parent="1" source="3" target="43" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="3" value="src" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#FFFFFF;strokeColor=#3700CC;fontStyle=1" parent="1" vertex="1">
@@ -75,7 +75,7 @@
                 <mxCell id="41" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;strokeColor=#999999;fontColor=#FFFFFF;" parent="1" source="25" target="40" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="76" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=13;fontColor=#1A1A1A;" edge="1" parent="1" source="25" target="74">
+                <mxCell id="76" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=13;fontColor=#1A1A1A;strokeColor=#F0F0F0;" edge="1" parent="1" source="25" target="74">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="25" value="Musicas.jsx" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#FFFFFF;strokeColor=#6F0000;fontStyle=1" parent="1" vertex="1">
@@ -120,10 +120,10 @@
                 <mxCell id="70" value="" style="group" vertex="1" connectable="0" parent="1">
                     <mxGeometry x="510" y="280" width="170" height="170" as="geometry"/>
                 </mxCell>
-                <mxCell id="66" value="" style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;fillColor=none;" vertex="1" parent="70">
+                <mxCell id="66" value="" style="whiteSpace=wrap;html=1;fontColor=#F0F0F0;fillColor=none;" vertex="1" parent="70">
                     <mxGeometry width="170" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="65" value="" style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;fillColor=none;" vertex="1" parent="70">
+                <mxCell id="65" value="" style="whiteSpace=wrap;html=1;fontColor=#F0F0F0;fillColor=none;" vertex="1" parent="70">
                     <mxGeometry y="30" width="170" height="140" as="geometry"/>
                 </mxCell>
                 <mxCell id="52" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#FFFFFF;strokeColor=#3700CC;fontStyle=1" vertex="1" parent="70">
@@ -157,7 +157,7 @@
                     <mxGeometry x="40" y="125" width="90" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="64" value="Legenda" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=14;" vertex="1" parent="70">
-                    <mxGeometry x="50" y="5" width="70" height="20" as="geometry"/>
+                    <mxGeometry x="50" y="6" width="70" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="68" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontStyle=1" vertex="1" parent="70">
                     <mxGeometry x="12" y="150" width="20" height="10" as="geometry"/>
@@ -165,7 +165,7 @@
                 <mxCell id="69" value="Requisição backend" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FFFFFF;" vertex="1" parent="70">
                     <mxGeometry x="40" y="145" width="120" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="77" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=13;fontColor=#1A1A1A;" edge="1" parent="1" source="74" target="43">
+                <mxCell id="77" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=13;fontColor=#1A1A1A;strokeColor=#F0F0F0;" edge="1" parent="1" source="74" target="43">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="74" value="GET" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontStyle=1;fontColor=#1A1A1A;fontSize=13;" vertex="1" parent="1">
