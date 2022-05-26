@@ -1,26 +1,35 @@
+import { useEffect, useState } from "react";
+import api from "../api";
 import CardMusica from "../components/CardMusica";
 import Menu from "../components/Menu";
 
 function Musicas() {
+
+  const [musicas, setMusicas] = useState([]);
+
+  useEffect(() => {
+    api.get("/").then((resposta) => {
+      console.log(resposta.data)
+      setMusicas(resposta.data)
+    })
+  },[])
+
   return (
     <>
     <Menu/>
-      <div class="container">
+      <div className="container">
         <div class="filter">
           <button class="btn">Adicionar</button>
         </div>
       </div>
 
       <div class="container">
-        <div class="music-boxes">
-         
-         
-         <CardMusica nomeMusica="Evidências" batata="Nome Artista 01" ano="2000" categoria="Rock 01"/>
-         <CardMusica nomeMusica="Música 02"  batata="Nome Artista 02" ano="2000" categoria="Axé 02"/>
-         <CardMusica nomeMusica="Musica 03"  batata="Nome Artista 03" ano="2000" categoria="Samba 03"/>
-         <CardMusica nomeMusica="Música 02"  batata="Nome Artista 04" ano="2000" categoria="Pop 04"/>
-         <CardMusica nomeMusica="Musica 03"  batata="Nome Artista 05" ano="2000" categoria="Funk 05"/>
-         
+        <div class="music-boxes">                 
+          {
+            musicas.map((itemMusica) => (
+              <CardMusica nomeMusica={itemMusica.nome} />
+            ))
+          }      
         </div>
       </div>
     </>
