@@ -1,28 +1,28 @@
 function CardMusica(props){
     return(
-        <div class="card-music">
-        <div class="icons">
+        <div className="card-music">
+        <div className="icons">
           <img src="../imagens/edit-icon.png" alt="" />
           <img src="../imagens/delete-icon.png" alt="" />
         </div>
-        <div class="info-music">
+        <div className="info-music">
           <p>
-            <strong class="card-title">música: </strong>
-            <input class="input-music-disabled" type="text" value={props.nomeMusica} />
+            <strong className="card-title">música: </strong>
+            <input className="input-music-disabled" type="text" value={props.nomeMusica} />
           </p>
           <p>
-            <strong class="card-title">artista: </strong>
-            <input class="input-music-disabled" type="text" value={props.artista} />
+            <strong className="card-title">artista: </strong>
+            <input className="input-music-disabled" type="text" value={props.artista} />
           </p>
           <p>
-            <strong class="card-title">categoria: </strong>
-            <input class="input-music-disabled" type="text" value={props.categoria}/>
+            <strong className="card-title">categoria: </strong>
+            <input className="input-music-disabled" type="text" value={props.categoria}/>
           </p>
           <p>
-            <strong class="card-title">ano: </strong>
-            <input class="input-music-disabled" type="text" value={props.anoMusica} />
+            <strong className="card-title">ano: </strong>
+            <input className="input-music-disabled" type="text" value={props.anoMusica} />
           </p>
-          <button class="btn-salvar-disabled">Salvar</button>
+          <button className="btn-salvar-disabled">Salvar</button>
         </div>
       </div>
     );

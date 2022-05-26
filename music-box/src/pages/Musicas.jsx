@@ -18,13 +18,13 @@ function Musicas() {
     <>
     <Menu/>
       <div className="container">
-        <div class="filter">
-          <button class="btn">Adicionar</button>
+        <div className="filter">
+          <button className="btn">Adicionar</button>
         </div>
       </div>
 
-      <div class="container">
-        <div class="music-boxes">                 
+      <div className="container">
+        <div className="music-boxes">                 
           {
             musicas.map((itemMusica) => (
               <CardMusica nomeMusica={itemMusica.nome} />

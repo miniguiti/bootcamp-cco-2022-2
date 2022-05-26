@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL : "COLOQUE SUA URL DO MOCK API NO api.js ! :)"
+    baseURL : "COLOQUE_SUA_URL_NO_API_JS"
 })
 
 export default api;

@@ -4,9 +4,9 @@ import logo from '../html-css-template/imagens/logo-verde.png'
 function Menu() {
   return (
     <nav>
-      <div class="container">
-        <img src={logo} alt="Logo" class="logo" />
-        <img src={avatar} alt="Avatar" class="avatar" />
+      <div className="container">
+        <img src={logo} alt="Logo" className="logo" />
+        <img src={avatar} alt="Avatar" className="avatar" />
       </div>
     </nav>
   );
