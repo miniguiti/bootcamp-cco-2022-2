@@ -27,7 +27,10 @@ function Musicas() {
         <div className="music-boxes">                 
           {
             musicas.map((itemMusica) => (
-              <CardMusica nomeMusica={itemMusica.nome} />
+              <CardMusica nomeMusica={itemMusica.nome}
+                          artista={itemMusica.artista}
+                          categoria={itemMusica.genero}
+                          anoMusica={itemMusica.ano}/>
             ))
           }      
         </div>
