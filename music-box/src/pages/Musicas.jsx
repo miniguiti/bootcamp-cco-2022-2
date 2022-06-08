@@ -30,7 +30,8 @@ function Musicas() {
               <CardMusica nomeMusica={itemMusica.nome}
                           artista={itemMusica.artista}
                           categoria={itemMusica.genero}
-                          anoMusica={itemMusica.ano}/>
+                          anoMusica={itemMusica.ano}
+                          capa={itemMusica.capa}/>
             ))
           }      
         </div>

@@ -1,6 +1,10 @@
 function CardMusica(props){
+    const imgCapa = {
+      backgroundImage: `url(${props.capa})`
+    }
+
     return(
-        <div className="card-music">
+        <div className="card-music" style={imgCapa}>
         <div className="icons">
           <img src="../imagens/edit-icon.png" alt="" />
           <img src="../imagens/delete-icon.png" alt="" />
