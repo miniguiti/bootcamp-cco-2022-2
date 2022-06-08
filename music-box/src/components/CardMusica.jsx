@@ -1,3 +1,5 @@
+import editIcon from '../html-css-template/imagens/edit-icon.png'
+import deleteIcon from '../html-css-template/imagens/delete-icon.png'
 function CardMusica(props){
     const imgCapa = {
       backgroundImage: `url(${props.capa})`
@@ -6,8 +8,8 @@ function CardMusica(props){
     return(
         <div className="card-music" style={imgCapa}>
         <div className="icons">
-          <img src="../imagens/edit-icon.png" alt="" />
-          <img src="../imagens/delete-icon.png" alt="" />
+          <img src={editIcon} alt="" />
+          <img src={deleteIcon} alt="" />
         </div>
         <div className="info-music">
           <p>

@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import api from "../api";
 import CardMusica from "../components/CardMusica";
 import Menu from "../components/Menu";
@@ -19,7 +20,9 @@ function Musicas() {
     <Menu/>
       <div className="container">
         <div className="filter">
-          <button className="btn">Adicionar</button>
+          <Link to="/adicionar">
+            <button className="btn">Adicionar</button>
+          </Link>          
         </div>
       </div>
 
